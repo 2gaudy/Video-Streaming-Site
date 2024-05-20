@@ -11,11 +11,10 @@ function App() {
         <h1>Video Host Test Site</h1>
         <div className='video-wrapper'>
           <h2>The Video</h2>
-
+            <h3>Cloudinary</h3>
             <VideoPlayer width={1280} height={720}/>
+            <h3>Google Drive</h3>
             <iframe src="https://drive.google.com/file/d/1_dNZkGDGQoaPHsJHzzm3EhAoweSwLYsg/preview" width="640" height="480" allow="autoplay"></iframe>
-
-
         </div>
 
       </div>
